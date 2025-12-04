@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <database>
+        <host>${DB_HOST}</host>
+        <port>${DB_PORT}</port>
+        <dbname>${DB_NAME}</dbname>
+        <user>${DB_USER}</user>
+        <password>${DB_PASSWORD}</password>
+        <schema>public</schema>
+    </database>
+    <app>
+        <title>${APP_TITLE}</title>
+        <version>${APP_VERSION}</version>
+    </app>
+</config>
